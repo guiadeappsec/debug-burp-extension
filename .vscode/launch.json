@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug Burp Extension",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "sourcePaths": ["${workspaceFolder}/extension/src/main/java"],
+      "projectName": "extension",
+      "timeout": 30000
+    }
+  ]
+}
